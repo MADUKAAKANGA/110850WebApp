@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(255, 255, 255);
+margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(41, 65, 99);
+}
+.topnav{
+    background-color: rgb(63, 62, 62);
+    overflow: hidden;
+}
+
+.topnav a{
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+    float:left;
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+}
+.topnav a:hover{
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+    background-color: beige;
+}
+
+/* Right-aligned links*/
+.topnav-right{
+    float:right;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.content{
+    float: left;
+    width: 66.7%;
+    padding: 50px;
+}
+.sidebar{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    font-family: 'Lucida Sans';
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    text-align: center;
+    font-size: small;
+    color:rgb(175, 175, 129);
+    background-color: rgb(21, 15, 43); 
+}
