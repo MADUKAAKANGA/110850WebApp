@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_param("ssssssi", $fullname, $email_address, $phone_number, $username, $dob, $hashed_password, $userrole);
 
     // Execute the query
-    if ($stmt->execute()) {
+    if($stmt->execute()){
         echo "Registration successful!";
     } else {
         echo "Error: " . $stmt->error;

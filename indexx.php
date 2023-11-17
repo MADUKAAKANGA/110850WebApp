@@ -9,7 +9,7 @@
 <div class="body">
 <body>
     <div class="authordetails">
-    <form action="", method="POST">
+    <form action="processes/autregistration.php" method="POST">
         <h2>AUTHOR DETAILS<h2><br/>
         Author ID <br/>
         <input type="text"name="author_id" id="author_id"><br/><br/>
@@ -20,15 +20,15 @@
         Author Address<br/>
         <input type="text" name="address" id="address"><br/><br/>
         Author Date of Birth<br/>
-        <input type="date" name="DOB" id="DOB"><br/><br/>
+        <input type="date" name="dob" id="dob"><br/><br/>
         Author Biography<br/>
-        <textarea placeholder="Write Biography here" name="biography" id="biography" rows="8" cols="40"></textarea><br/>
+        <textarea placeholder="Write Biography here" name="biography" id="biography" rows="8"gti cols="80"></textarea><br/>
         Author Suspended<br/>
         YES
         <input type="radio" name= "status" id="yes" value="status"> <br/>
         NO
         <input type="radio" name="status" id="no" value="status"><br/>
-        <input type="submit" value="submit"><br>
+        <input type="submit" name = "submit" value="submit"><br>
     </form>
     </div>
 </div>
